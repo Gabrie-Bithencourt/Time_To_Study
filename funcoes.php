@@ -15,6 +15,7 @@ function nova_materia(){
     $nova_materia = $banco->prepare($busca_nova_materia);
     $nova_materia->execute();
     $materia = $nova_materia->fetch();
+    // teste//
 
     return $materia;
 }
